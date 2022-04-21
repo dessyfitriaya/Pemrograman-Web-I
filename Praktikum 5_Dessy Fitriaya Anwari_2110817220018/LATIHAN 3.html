@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Pendaftaran Kursus</title>
+    </head>
+
+    <body>
+        <table border="2" align="center">
+            <th colspan="5" bgcolor="skyblue" width="800" height="100">
+                <font face="arial" color="red" size="6">Pendaftaran Kursus</font>
+            </th>
+            <tr>
+                <td bgcolor="gray" colspan="2">
+                    <form action="" method="">
+                    <font face="arial" color="black" size="5"><b>Data Diri</b></font><br><br>
+                    Nama
+                    <input type="text" name="nama"><br>
+                    NIM
+                    <input type="text" name="nim" maxlength="9"><br>
+                    E-mail
+                    <input type="email" name="email"><br>
+                    Tanggal Lahir
+                    <input type="date" name="tl"><br>
+                    Jenis Kelamin
+                    <input type="radio" name="boy" value="Laki-laki">Laki-laki<br>
+                    <input type="radio" name="girl" value="Perempuan">Perempuan<br>
+                    Pilih Program Kursus
+                    <input type="checkbox" name="lang1" value="C#">C#<br>
+                    <input type="checkbox" name="lang2" value="Java">Java<br>
+                    <input type="checkbox" name="lang3" value="SQL">SQL<br>
+                    <input type="checkbox" name="lang4" value="HTML dan PHP">HTML dan PHP<br>
+                    Pilihan Hari/Jam Kursus
+                    <select name="hari_jam">
+                        <option value="Senin Rabu">Senin - Rabu/09.00 ─ 11.00</option>
+                        <option value="Kamis Jum'at">Kamis - Jum'at/08.00 ─ 10.00</option>
+                        <option value="Sabtu Minggu">Sabtu Minggu/09.00 ─ 11.00</option>
+                    </select>
+                    <br><br><br><br><br><br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor=#fa8071>
+                    Komentar Anda
+                    <br>
+                    <textarea name="komentar" rows="5" cols="80"></textarea>
+                    <br>
+                    <input type="reset" name="ulang" value="Reset">
+                    <input type="submit" name="kirim" value="Submit">
+                    <input type="button" name="batal" value="Cancel">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
