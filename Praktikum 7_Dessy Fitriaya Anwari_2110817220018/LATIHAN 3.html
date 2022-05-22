@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM BIODATA</title>
+    </head>
+
+    <body>
+        <table bgcolor="#FDFD96" align="center">
+            <tr>
+                <th colspan="2">
+                    <font color="#e1ad01">
+                        <b>FORM BIODATA MAHASISWA/MAHASISWI UNIVERSITAS LAMBUNG MANGKURAT</b>
+                    </font>
+                </th>
+            </tr>
+
+            <tr>
+                <td colspan="2"><hr color="#ffffff"></td>
+            </tr>
+
+            <tr>
+                <td>NIM</td> 
+                <td><input type="text" name="nim" size="50"></td>
+            </tr>
+
+            <tr>
+                <td>NAMA LENGKAP</td>
+                <td><input type="text" name="nama" size="70"></td>
+            </tr>
+
+            <tr>
+                <td>KELAS</td>
+                <td>
+                    <select name="kelas">
+                        <option value="D1">D1</option>
+                        <option value="D2">D2</option>
+                        <option value="D3">D3</option>
+                        <option value="S1">S1</option>
+                        <option value="S2">S2</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>JURUSAN</td>
+                <td>
+                    <input type="radio" name="teknologi_informasi" value="TI1">Teknologi Informasi
+                    <input type="radio" name="teknik_informatika" value="TI2">Teknik Informatika
+                    <input type="radio" name="sistem_informasi" value="SI">Sistem Informasi
+                </td>
+            </tr>
+
+            <tr>
+                <td>TEMPAT DAN TANGGAL LAHIR</td>
+                <td><input type="text">
+                    <select name="ttl1">
+                        <option value="tanggal">Tanggal</option>
+                    </select>
+                    <select name="ttl2">
+                        <option value="bulan">Bulan</option>
+                    </select>
+                    <select name="ttl3">
+                        <option value="tahun">Tahun</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>JENIS KELAMIN</td>
+                <td>
+                    <input type="radio" name="laki" value="L">Laki-Laki
+                    <input type="radio" name="puan" value="P">Perempuan
+                </td>
+            </tr>
+
+            <tr>
+                <td>ALAMAT</td>
+                <td><input type="text" size="70"></td>
+            </tr>
+
+            <tr>
+                <td>EMAIL</td>
+                <td>
+                    <input type="text">
+                    @
+                    <select name="email">
+                        <option value="gmail">gmail.com</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="kirim" value="Submit">
+                    <input type="button" name="batal" value="Cancel">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><hr color="#ffffff"></td>
+            </tr>
+        </table>
+    </body>
+</html>
